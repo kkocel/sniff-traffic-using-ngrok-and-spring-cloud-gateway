@@ -7,7 +7,7 @@ plugins {
     id("io.spring.dependency-management") version "1.1.3"
     id("com.gorylenko.gradle-git-properties") version "2.4.1"
     id("com.google.osdetector") version "1.7.3"
-    val kotlinVersion = "1.9.20"
+    val kotlinVersion = "1.9.22"
     kotlin("jvm") version kotlinVersion
     kotlin("plugin.spring") version kotlinVersion
 }
