@@ -1,0 +1,23 @@
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health, routes, filters
+
+
+logging:
+  level:
+    root: INFO
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: all
+          uri: https://www.example.com
+          predicates:
+            - Path=/**
+server:
+  port: 8090

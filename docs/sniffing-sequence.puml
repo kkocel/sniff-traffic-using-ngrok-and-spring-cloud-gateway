@@ -1,0 +1,20 @@
+@startuml
+
+participant SDK
+participant ngrok
+participant "Spring Cloud Gateway"
+participant Target
+
+note over ngrok, "Spring Cloud Gateway": Our local dev machine
+
+note over SDK: Configure base URL to point into\nour ngrok tunnel
+
+SDK -> ngrok: HTTPS Request
+
+
+ngrok -> "Spring Cloud Gateway": HTTPS Request
+
+
+"Spring Cloud Gateway" -> Target: HTTPS Request
+
+@enduml
