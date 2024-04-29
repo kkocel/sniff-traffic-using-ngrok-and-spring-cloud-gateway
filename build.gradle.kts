@@ -5,7 +5,7 @@ val springCloudVersion = "2023.0.1"
 plugins {
     id("org.springframework.boot") version "3.2.5"
     id("io.spring.dependency-management") version "1.1.4"
-    id("com.gorylenko.gradle-git-properties") version "2.4.1"
+    id("com.gorylenko.gradle-git-properties") version "2.4.2"
     id("com.google.osdetector") version "1.7.3"
     val kotlinVersion = "1.9.23"
     kotlin("jvm") version kotlinVersion
