@@ -1,6 +1,6 @@
 val kotlinLoggingVersion = "3.0.5"
 val kotlinTestVersion = "5.7.2"
-val springCloudVersion = "2023.0.2"
+val springCloudVersion = "2023.0.3"
 
 plugins {
     id("org.springframework.boot") version "3.3.1"
