@@ -3,7 +3,7 @@ val kotlinTestVersion = "5.7.2"
 val springCloudVersion = "2024.0.1"
 
 plugins {
-    id("org.springframework.boot") version "3.4.5"
+    id("org.springframework.boot") version "3.5.0"
     id("io.spring.dependency-management") version "1.1.7"
     id("com.gorylenko.gradle-git-properties") version "2.5.0"
     id("com.google.osdetector") version "1.7.3"
